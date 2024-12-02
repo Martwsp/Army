@@ -1,10 +1,12 @@
-package Soldiers;
+package Soldiers.defensive;
+
+import Soldiers.Soldier;
 
 public class Pikeman extends Soldier implements Defensive {
 
     public Pikeman(int lvl) {
         super.name = "Pikeman";
-        super.type = "Defensive";
+        super.type = Type.DEFENSIVE;
         super.health = 8 + (3*lvl);
         super.offense = 6 + (lvl);
         super.defense = 4 + (2*lvl);

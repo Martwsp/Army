@@ -1,4 +1,4 @@
-package Soldiers;
+package Soldiers.defensive;
 
 public interface Defensive {}
 

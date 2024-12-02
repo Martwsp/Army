@@ -1,10 +1,12 @@
-package Soldiers;
+package Soldiers.offensive;
+
+import Soldiers.Soldier;
 
 public class ManAtArms extends Soldier implements Offensive {
 
     public ManAtArms(int lvl) {
         super.name = "Man at arms";
-        super.type = "Offensive";
+        super.type = Type.OFFENSIVE;
         super.health = 10 + (5*lvl);
         super.offense = 8 + (3*lvl);
         super.defense = 5 + (2*lvl);

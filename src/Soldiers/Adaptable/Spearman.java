@@ -1,10 +1,12 @@
-package Soldiers;
+package Soldiers.Adaptable;
+
+import Soldiers.Soldier;
 
 public class Spearman extends Soldier implements Adaptable {
 
     public Spearman(int lvl) {
         super.name = "Spearman";
-        super.type = "Versatile";
+        super.type = Type.ADAPTABLE;
         super.health = 5 + (3*lvl);
         super.offense = 6 + (2*lvl);
         super.defense = 10 + (5*lvl);

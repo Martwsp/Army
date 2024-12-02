@@ -1,4 +1,10 @@
-import Soldiers.*;
+import Soldiers.Adaptable.Ranger;
+import Soldiers.Adaptable.Spearman;
+import Soldiers.defensive.Halberdier;
+import Soldiers.defensive.Pikeman;
+import Soldiers.offensive.HeavyCavalry;
+import Soldiers.offensive.LightCavalry;
+import Soldiers.offensive.ManAtArms;
 
 public class Main {
 
@@ -14,8 +20,8 @@ public class Main {
         army.addSoldier(pikeman);
         Pikeman pikeman2 = new Pikeman(4);
         army.addSoldier(pikeman2);
-        Halberdier Halberdier = new Halberdier(2);
-        army.addSoldier(Halberdier);
+        Halberdier halberdier = new Halberdier(2);
+        army.addSoldier(halberdier);
         Spearman spearman = new Spearman(1);
         army.addSoldier(spearman);
         Ranger ranger = new Ranger(2);

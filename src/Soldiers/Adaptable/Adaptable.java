@@ -1,3 +1,3 @@
-package Soldiers;
+package Soldiers.Adaptable;
 
 public interface Adaptable {}

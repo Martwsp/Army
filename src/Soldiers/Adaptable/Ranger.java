@@ -1,10 +1,12 @@
-package Soldiers;
+package Soldiers.Adaptable;
+
+import Soldiers.Soldier;
 
 public class Ranger extends Soldier implements Adaptable {
 
     public Ranger(int lvl) {
         super.name = "Ranger";
-        super.type = "Versatile";
+        super.type = Type.ADAPTABLE;
         super.health = 5 + (5 * lvl);
         super.offense = 4 + (3 * lvl);
         super.defense = 4 + (2 * lvl);

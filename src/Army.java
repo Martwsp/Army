@@ -1,6 +1,6 @@
-import Soldiers.Adaptable;
-import Soldiers.Defensive;
-import Soldiers.Offensive;
+import Soldiers.Adaptable.Adaptable;
+import Soldiers.defensive.Defensive;
+import Soldiers.offensive.Offensive;
 import Soldiers.Soldier;
 
 import java.util.ArrayList;

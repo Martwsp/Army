@@ -1,9 +1,11 @@
-package Soldiers;
+package Soldiers.offensive;
+
+import Soldiers.Soldier;
 
 public class HeavyCavalry extends Soldier implements Offensive {
     public HeavyCavalry(int lvl) {
         super.name = "Heavy cavalry";
-        super.type = "Offensive";
+        super.type = Type.OFFENSIVE;
         super.health = 8 + (4*lvl);
         super.offense = 10 + (4*lvl);
         super.defense = 4 + (2*lvl);
