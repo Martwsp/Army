@@ -1,8 +1,8 @@
-package Soldiers.offensive;
+package soldiers.offensive;
 
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
-public class ManAtArms extends Soldier implements Offensive {
+public class ManAtArms extends Soldier {
 
     public ManAtArms(int lvl) {
         super.name = "Man at arms";

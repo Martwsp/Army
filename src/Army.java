@@ -1,7 +1,4 @@
-import Soldiers.adaptable.Adaptable;
-import Soldiers.defensive.Defensive;
-import Soldiers.offensive.Offensive;
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,15 +70,13 @@ public class Army {
     }
 
     public void attack() {
-        for (Soldier soldier : this.soldiers)
-            if (soldier instanceof Offensive || soldier instanceof Adaptable) {
-                soldier.attack();
-            }
+        for (Soldier soldier : this.soldiers) {
+            soldier.attack();
+        }
     }
 
     public void defend() {
-        for (Soldier soldier : this.soldiers)
-            if (soldier instanceof Defensive || soldier instanceof Adaptable) {
+        for (Soldier soldier : this.soldiers) {
                 soldier.defend();
             }
     }

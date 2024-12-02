@@ -1,8 +1,8 @@
-package Soldiers.adaptable;
+package soldiers.adaptable;
 
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
-public class Spearman extends Soldier implements Adaptable {
+public class Spearman extends Soldier {
 
     public Spearman(int lvl) {
         super.name = "Spearman";

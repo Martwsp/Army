@@ -1,10 +1,10 @@
-import Soldiers.adaptable.Ranger;
-import Soldiers.adaptable.Spearman;
-import Soldiers.defensive.Halberdier;
-import Soldiers.defensive.Pikeman;
-import Soldiers.offensive.HeavyCavalry;
-import Soldiers.offensive.LightCavalry;
-import Soldiers.offensive.ManAtArms;
+import soldiers.adaptable.Ranger;
+import soldiers.adaptable.Spearman;
+import soldiers.defensive.Halberdier;
+import soldiers.defensive.Pikeman;
+import soldiers.offensive.HeavyCavalry;
+import soldiers.offensive.LightCavalry;
+import soldiers.offensive.ManAtArms;
 
 public class Main {
 

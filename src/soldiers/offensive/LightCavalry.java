@@ -1,8 +1,8 @@
-package Soldiers.offensive;
+package soldiers.offensive;
 
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
-public class LightCavalry extends Soldier implements Offensive {
+public class LightCavalry extends Soldier {
     public LightCavalry(int lvl) {
         super.name = "Light cavalry";
         super.type = Type.OFFENSIVE;

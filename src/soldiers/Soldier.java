@@ -1,4 +1,4 @@
-package Soldiers;
+package soldiers;
 
 public abstract class Soldier {
     protected String name;
@@ -19,11 +19,15 @@ public abstract class Soldier {
     }
 
     public  void attack(){
-        System.out.println(name + " attacks for " + this.offense + " damage.");
+        switch(this.type){
+            case OFFENSIVE, ADAPTABLE ->System.out.println(name + " attacks for " + this.offense + " damage.");
+        }
     }
 
     public void defend() {
-        System.out.println(name + " is defending for " + this.defense + " damage.");
+        switch(this.type) {
+            case DEFENSIVE, ADAPTABLE-> System.out.println(name + " is defending for " + this.defense + " damage.");
+        }
     }
 
     public abstract void special();

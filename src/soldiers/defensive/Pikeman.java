@@ -1,8 +1,8 @@
-package Soldiers.defensive;
+package soldiers.defensive;
 
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
-public class Pikeman extends Soldier implements Defensive {
+public class Pikeman extends Soldier {
 
     public Pikeman(int lvl) {
         super.name = "Pikeman";

@@ -1,8 +1,8 @@
-package Soldiers.defensive;
+package soldiers.defensive;
 
-import Soldiers.Soldier;
+import soldiers.Soldier;
 
-public class Halberdier extends Soldier implements Defensive {
+public class Halberdier extends Soldier {
 
     public Halberdier(int lvl) {
         super.name = "Halbedier";
