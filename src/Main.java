@@ -1,5 +1,5 @@
-import Soldiers.Adaptable.Ranger;
-import Soldiers.Adaptable.Spearman;
+import Soldiers.adaptable.Ranger;
+import Soldiers.adaptable.Spearman;
 import Soldiers.defensive.Halberdier;
 import Soldiers.defensive.Pikeman;
 import Soldiers.offensive.HeavyCavalry;

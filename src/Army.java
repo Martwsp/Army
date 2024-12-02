@@ -1,4 +1,4 @@
-import Soldiers.Adaptable.Adaptable;
+import Soldiers.adaptable.Adaptable;
 import Soldiers.defensive.Defensive;
 import Soldiers.offensive.Offensive;
 import Soldiers.Soldier;
